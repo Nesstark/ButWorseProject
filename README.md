@@ -11,14 +11,14 @@ The inspiration for this project comes from:
 ## Time Table 🕒
 Below is a time log of the hours spent on different aspects of the project. This will help track the progress and time allocation for each task.
 
-| **Task**                | **Date**       | **Time Spent**  | **Total Time**  |
-|-------------------------|----------------|-----------------|-----------------|
-| **Initial Setup**        | 05-12-2024     | 0,75 hours       | 0,75 hours       |
-| **Scripting**            | 05-12-2024     | 1,25 hours         | 2 hours         |
-| **UI Design**            | 07-12-2024     | 0 hour          | 0 hours         |
-| **Debugging**            | 08-12-2024     | 0 hours         | 0 hours        |
-| **Playtesting**          | 09-12-2024     | 0 hours         | 0 hours        |
-| **Final Adjustments**    | 10-12-2024     | 0 hours       | 0 hours      |
+| **Task**                | **Time Spent**  | **Total Time**  |
+|-------------------------|-----------------|-----------------|
+| **Initial Setup**       | 0,75 hours      | 0,75 hours      |
+| **Scripting**           | 1,25 hours      | 2 hours         |
+| **UI Design**           | 0 hour          | 0 hours         |
+| **Debugging**           | 0 hours         | 0 hours         |
+| **Playtesting**         | 0 hours         | 0 hours         |
+| **Final Adjustments**   | 0 hours         | 0 hours         |
 
 ## Tutorials used
 https://www.youtube.com/watch?v=f473C43s8nE

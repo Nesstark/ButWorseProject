@@ -13,9 +13,9 @@ Below is a time log of the hours spent on different aspects of the project. This
 
 | **Task**                | **Date**       | **Time Spent**  | **Total Time**  |
 |-------------------------|----------------|-----------------|-----------------|
-| **Initial Setup**        | 05-12-2024     | 2 hours         | 2 hours         |
-| **Scripting**            | 06-12-2024     | 4 hours         | 6 hours         |
-| **UI Design**            | 07-12-2024     | 1 hour          | 7 hours         |
-| **Debugging**            | 08-12-2024     | 3 hours         | 10 hours        |
-| **Playtesting**          | 09-12-2024     | 2 hours         | 12 hours        |
-| **Final Adjustments**    | 10-12-2024     | 1.5 hours       | 13.5 hours      |
+| **Initial Setup**        | 05-12-2024     | 0,5 hours       | 0,5 hours       |
+| **Scripting**            | 06-12-2024     | 0 hours         | 0 hours         |
+| **UI Design**            | 07-12-2024     | 0 hour          | 0 hours         |
+| **Debugging**            | 08-12-2024     | 0 hours         | 0 hours        |
+| **Playtesting**          | 09-12-2024     | 0 hours         | 0 hours        |
+| **Final Adjustments**    | 10-12-2024     | 0 hours       | 0 hours      |

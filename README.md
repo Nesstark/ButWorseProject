@@ -24,5 +24,5 @@ Below is a time log of the hours spent on different aspects of the project. This
 https://www.youtube.com/watch?v=f473C43s8nE
 
 ## AI Engines Used
-ChatGPT
-GitHub Copilot
+- ChatGPT
+- GitHub Copilot

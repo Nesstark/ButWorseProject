@@ -13,8 +13,8 @@ Below is a time log of the hours spent on different aspects of the project. This
 
 | **Task**                | **Date**       | **Time Spent**  | **Total Time**  |
 |-------------------------|----------------|-----------------|-----------------|
-| **Initial Setup**        | 05-12-2024     | 0,5 hours       | 0,5 hours       |
-| **Scripting**            | 05-12-2024     | 1 hours         | 1,5 hours         |
+| **Initial Setup**        | 05-12-2024     | 0,75 hours       | 0,75 hours       |
+| **Scripting**            | 05-12-2024     | 1,25 hours         | 2 hours         |
 | **UI Design**            | 07-12-2024     | 0 hour          | 0 hours         |
 | **Debugging**            | 08-12-2024     | 0 hours         | 0 hours        |
 | **Playtesting**          | 09-12-2024     | 0 hours         | 0 hours        |
@@ -22,3 +22,7 @@ Below is a time log of the hours spent on different aspects of the project. This
 
 ## Tutorials used
 https://www.youtube.com/watch?v=f473C43s8nE
+
+## AI Engines Used
+ChatGPT
+GitHub Copilot

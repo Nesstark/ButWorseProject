@@ -23,6 +23,7 @@ Below is a time log of the hours spent on different aspects of the project. This
 ## Tutorials used
 - [FIRST PERSON MOVEMENT in 10 MINUTES - Unity Tutorial - Dave / GameDevelopment](https://www.youtube.com/watch?v=f473C43s8nE)
 - [SLOPE MOVEMENT, SPRINTING & CROUCHING - Unity Tutorial - Dave / GameDevelopment](https://www.youtube.com/watch?v=xCxSjgYTw9c)
+- [Shooting with Raycasts - Unity Tutorial - Brackeys](https://www.youtube.com/watch?v=THnivyG0Mvo)
 
 ## AI Engines Used
 - ChatGPT

@@ -21,8 +21,8 @@ Below is a time log of the hours spent on different aspects of the project. This
 | **Final Adjustments**   | 0 hours         | 0 hours         |
 
 ## Tutorials used
-[FIRST PERSON MOVEMENT in 10 MINUTES - Unity Tutorial - Dave / GameDevelopment](https://www.youtube.com/watch?v=f473C43s8nE)
-[SLOPE MOVEMENT, SPRINTING & CROUCHING - Unity Tutorial - Dave / GameDevelopment](https://www.youtube.com/watch?v=xCxSjgYTw9c)
+- [FIRST PERSON MOVEMENT in 10 MINUTES - Unity Tutorial - Dave / GameDevelopment](https://www.youtube.com/watch?v=f473C43s8nE)
+- [SLOPE MOVEMENT, SPRINTING & CROUCHING - Unity Tutorial - Dave / GameDevelopment](https://www.youtube.com/watch?v=xCxSjgYTw9c)
 
 ## AI Engines Used
 - ChatGPT

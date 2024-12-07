@@ -31,6 +31,5 @@ Below is a time log of the hours spent on different aspects of the project. This
 - GitHub Copilot
 
 ## Packages used
--
--
--
+- [RPG/FPS Game Assets for PC/Mobile (Industrial Set v3.0)](https://assetstore.unity.com/packages/3d/environments/industrial/rpg-fps-game-assets-for-pc-mobile-industrial-set-v3-0-101429)
+- [Modern Weapons Pack](https://assetstore.unity.com/packages/3d/props/guns/modern-weapons-pack-14233)

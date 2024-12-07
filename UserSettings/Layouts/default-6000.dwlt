@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 90
+  controlID: 93
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 39
+  controlID: 52
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 40
+  controlID: 42
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -473,7 +473,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -483,16 +483,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Programmer\Unity\Projects\ButWorseGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9ab30000
-    m_LastClickedID: 45978
-    m_ExpandedIDs: 000000001acf0000
+    m_SelectedIDs: 22d10000
+    m_LastClickedID: 53538
+    m_ExpandedIDs: 000000003ecf000040cf000042cf0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -521,7 +521,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001acf0000
+    m_ExpandedIDs: 000000003ecf000040cf000042cf0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -669,7 +669,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 72dafeff6c09ffff52b0ffff
+      m_ExpandedIDs: 20fbffff90e90000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1301,9 +1301,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.53902435, y: 0.3939867, z: -0.2102058}
+    m_Target: {x: 0.08451174, y: 1.4340228, z: -1.6171776}
     speed: 2
-    m_Value: {x: -0.53902435, y: 0.3939867, z: -0.2102058}
+    m_Value: {x: 0.08451174, y: 1.4340228, z: -1.6171776}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1349,13 +1349,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.11228482, y: 0.8178999, z: -0.17074925, w: -0.5378511}
+    m_Target: {x: 0.19034141, y: 0.25298673, z: -0.050839167, w: 0.94720525}
     speed: 2
-    m_Value: {x: -0.112284414, y: 0.81789696, z: -0.17074864, w: -0.5378492}
+    m_Value: {x: -0.19034141, y: -0.25298673, z: 0.050839163, w: -0.9472052}
   m_Size:
-    m_Target: 3.0205612
+    m_Target: 1.3187071
     speed: 2
-    m_Value: 3.0205612
+    m_Value: 1.3187071
   m_Ortho:
     m_Target: 0
     speed: 2

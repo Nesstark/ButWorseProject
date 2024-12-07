@@ -14,8 +14,8 @@ Below is a time log of the hours spent on different aspects of the project. This
 | **Task**                | **Time Spent**  | **Total Time**  |
 |-------------------------|-----------------|-----------------|
 | **Initial Setup**       | 0,75 hours      | 0,75 hours      |
-| **Scripting**           | 4,31 hours      | 5,06 hours      |
-| **Level Design**        | 0 hours         | 0 hours         |
+| **Scripting**           | 4,42 hours      | 5,17 hours      |
+| **Level Design**        | 1,58 hours      | 6,64 hours      |
 | **UI Design**           | 0 hours         | 0 hours         |
 | **Playtesting**         | 0 hours         | 0 hours         |
 | **Final Adjustments**   | 0 hours         | 0 hours         |

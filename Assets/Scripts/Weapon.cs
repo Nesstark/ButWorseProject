@@ -16,6 +16,8 @@ public class Weapon : MonoBehaviour
 
     private float nextTimeToFire = 0f;
 
+    public LayerMask whatIsPlayer; // Layer to specify what to ignore
+
     void Start()
     {
         currentAmmo = magazineSize; // Start with a full magazine
@@ -49,7 +51,8 @@ public class Weapon : MonoBehaviour
         Debug.Log("Shots fired! Remaining ammo: " + currentAmmo);
 
         RaycastHit hit;
-        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
+        // Perform the raycast and ignore the "whatIsPlayer" layer (using the layer mask)
+        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range, ~whatIsPlayer))
         {
             // Ignore objects tagged "Player"
             if (hit.transform.CompareTag("Player"))

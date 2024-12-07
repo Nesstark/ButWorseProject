@@ -14,9 +14,9 @@ Below is a time log of the hours spent on different aspects of the project. This
 | **Task**                | **Time Spent**  | **Total Time**  |
 |-------------------------|-----------------|-----------------|
 | **Initial Setup**       | 0,75 hours      | 0,75 hours      |
-| **Scripting**           | 2,9 hours       | 3,65 hours      |
-| **UI Design**           | 0 hour          | 0 hours         |
-| **Debugging**           | 0 hours         | 0 hours         |
+| **Scripting**           | 4,31 hours      | 5,06 hours      |
+| **Level Design**        | 0 hours         | 0 hours         |
+| **UI Design**           | 0 hours         | 0 hours         |
 | **Playtesting**         | 0 hours         | 0 hours         |
 | **Final Adjustments**   | 0 hours         | 0 hours         |
 
@@ -24,7 +24,13 @@ Below is a time log of the hours spent on different aspects of the project. This
 - [FIRST PERSON MOVEMENT in 10 MINUTES - Unity Tutorial - Dave / GameDevelopment](https://www.youtube.com/watch?v=f473C43s8nE)
 - [SLOPE MOVEMENT, SPRINTING & CROUCHING - Unity Tutorial - Dave / GameDevelopment](https://www.youtube.com/watch?v=xCxSjgYTw9c)
 - [Shooting with Raycasts - Unity Tutorial - Brackeys](https://www.youtube.com/watch?v=THnivyG0Mvo)
+- [A guide on using the new AI Navigation package in Unity 2022 LTS and above](https://discussions.unity.com/t/a-guide-on-using-the-new-ai-navigation-package-in-unity-2022-lts-and-above/371872)
 
 ## AI Engines Used
 - ChatGPT
 - GitHub Copilot
+
+## Packages used
+-
+-
+-

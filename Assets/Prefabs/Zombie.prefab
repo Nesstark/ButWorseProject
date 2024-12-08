@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 945397944270724396}
   m_Layer: 0
   m_Name: Zombie
-  m_TagString: Untagged
+  m_TagString: Zombie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127,6 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
+  spawner: {fileID: 0}
 --- !u!114 &713227135885090346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,6 +143,7 @@ MonoBehaviour:
   player: {fileID: 3997706250328335901, guid: b2d26ed82708c2d4e894485934a46b7b, type: 3}
   damage: 10
   attackCooldown: 1
+  stopDistance: 1.5
 --- !u!195 &8589086201397372101
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -187,7 +189,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0

@@ -1,9 +1,15 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
     public float maxHealth = 100f;
     private float currentHealth;
+
+    public UIManager uiManager; // Reference to the UIManager for updating the UI
+
+    // Property to expose current health
+    public float CurrentHealth => currentHealth;
 
     void Start()
     {
@@ -24,6 +30,20 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("Player Died!");
-        // Add death logic here (e.g., respawn, game over screen)
+
+        // Update the UI to show "DIED" and activate the death message
+        if (uiManager != null)
+        {
+            uiManager.ShowDeathMessage();
+        }
+
+        // Start the coroutine to delay the game pause
+        StartCoroutine(DelayGamePause());
+    }
+
+    IEnumerator DelayGamePause()
+    {
+        yield return new WaitForSeconds(0.1f); // Wait for 0.1 seconds
+        Time.timeScale = 0;  // Pause the game
     }
 }

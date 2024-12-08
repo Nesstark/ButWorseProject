@@ -8,6 +8,8 @@ public class ZombieAI : MonoBehaviour
     public float attackCooldown = 1f; // Time between damage ticks
     private float nextAttackTime = 0f;
 
+    public float stopDistance = 1.5f; // Distance to stop before reaching the player
+
     private NavMeshAgent agent;
 
     void Start()
@@ -25,18 +27,33 @@ public class ZombieAI : MonoBehaviour
         if (player == null)
             return;
 
-        // Always move toward the player
-        agent.SetDestination(player.position);
+        // Calculate the distance to the player
+        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+
+        // Move towards the player if outside the stop distance
+        if (distanceToPlayer > stopDistance)
+        {
+            agent.isStopped = false; // Resume movement
+            agent.SetDestination(player.position);
+        }
+        else
+        {
+            // Stop the zombie near the player
+            agent.isStopped = true;
+
+            // Attempt to attack the player
+            TryAttackPlayer();
+        }
     }
 
-    private void OnCollisionStay(Collision collision)
+    private void TryAttackPlayer()
     {
-        if (collision.transform.CompareTag("Player") && Time.time >= nextAttackTime)
+        if (Time.time >= nextAttackTime)
         {
             nextAttackTime = Time.time + attackCooldown;
 
             // Assuming the player has a script to handle health
-            PlayerHealth playerHealth = collision.transform.GetComponent<PlayerHealth>();
+            PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {
                 playerHealth.TakeDamage(damage);

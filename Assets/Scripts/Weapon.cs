@@ -8,6 +8,7 @@ public class Weapon : MonoBehaviour
     public float fireRate = 15f;
 
     public Camera fpsCam;
+    public ParticleSystem muzzleFlash;
 
     public int magazineSize = 30; // Number of bullets per magazine
     private int currentAmmo; // Current bullets in the magazine
@@ -18,6 +19,10 @@ public class Weapon : MonoBehaviour
 
     public LayerMask whatIsPlayer; // Layer to specify what to ignore
 
+    // Properties to expose ammo information for the UIManager
+    public int CurrentAmmo => currentAmmo;
+    public int MaxAmmo => magazineSize;
+
     void Start()
     {
         currentAmmo = magazineSize; // Start with a full magazine
@@ -25,19 +30,16 @@ public class Weapon : MonoBehaviour
 
     void Update()
     {
-        // If reloading, skip shooting
         if (isReloading)
             return;
 
-        // Reload when out of ammo and Fire button is pressed
-        if (currentAmmo <= 0)
+        if (currentAmmo <= 0 || Input.GetKeyDown(KeyCode.R))
         {
-            Debug.Log("Out of ammo! Reloading...");
+            Debug.Log("Reloading...");
             StartCoroutine(Reload());
             return;
         }
 
-        // Shooting logic
         if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
             nextTimeToFire = Time.time + 1f / fireRate;
@@ -47,14 +49,13 @@ public class Weapon : MonoBehaviour
 
     void Shoot()
     {
+        muzzleFlash.Play();
         currentAmmo--; // Use one bullet
         Debug.Log("Shots fired! Remaining ammo: " + currentAmmo);
 
         RaycastHit hit;
-        // Perform the raycast and ignore the "whatIsPlayer" layer (using the layer mask)
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range, ~whatIsPlayer))
         {
-            // Ignore objects tagged "Player"
             if (hit.transform.CompareTag("Player"))
             {
                 Debug.Log("Ignored player hit.");
@@ -63,14 +64,12 @@ public class Weapon : MonoBehaviour
 
             Debug.Log(hit.transform.name);
 
-            // Check if the hit object has an Enemy component
             Enemy target = hit.transform.GetComponent<Enemy>();
             if (target != null)
             {
                 target.TakeDamage(damage);
             }
 
-            // Apply impact force to the hit object's rigidbody
             if (hit.rigidbody != null)
             {
                 hit.rigidbody.AddForce(-hit.normal * impactForce);

@@ -14,6 +14,10 @@ public class ZombieSpawner : MonoBehaviour
     private float timeBetweenSpawns;
     private int zombiesAlive = 0; // Tracks how many zombies are still alive
 
+    public int ZombiesAlive => zombiesAlive; // Property for zombies alive
+    public int ZombiesRemainingInRound => zombiesRemainingInRound; // Zombies left to spawn in this round
+    public int CurrentRound => currentRound; // Property for the current round
+
     void Start()
     {
         zombiesRemainingInRound = zombiesPerRound;

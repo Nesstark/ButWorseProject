@@ -46,9 +46,9 @@ Below is a time log of the hours spent on different aspects of the project. This
 |-------------------------|-----------------|-----------------|
 | **Initial Setup**       | 0.75 hours      | 0.75 hours      |
 | **Scripting**           | 4.42 hours      | 5.17 hours      |
-| **Level Design**        | 1.58 hours      | 6.64 hours      |
-| **UI Design**           | 1 hour          | 7.64 hours      |
-| **Final Adjustments**   | 1 hour          | 8 hours         |
+| **Level Design**        | 1.58 hours      | 6.75 hours      |
+| **UI Design**           | 1 hour          | 7.75 hours      |
+| **Final Adjustments**   | 1 hour          | 8.75 hours      |
 
 ## Tutorials Used
 - [FIRST PERSON MOVEMENT in 10 MINUTES - Unity Tutorial - Dave / GameDevelopment](https://www.youtube.com/watch?v=f473C43s8nE)

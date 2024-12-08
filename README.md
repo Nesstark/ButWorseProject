@@ -63,6 +63,7 @@ Below is a time log of the hours spent on different aspects of the project. This
 ## Packages Used
 - [RPG/FPS Game Assets for PC/Mobile (Industrial Set v3.0)](https://assetstore.unity.com/packages/3d/environments/industrial/rpg-fps-game-assets-for-pc-mobile-industrial-set-v3-0-101429)
 - [Modern Weapons Pack](https://assetstore.unity.com/packages/3d/props/guns/modern-weapons-pack-14233)
+- [Particle Pack](https://assetstore.unity.com/packages/vfx/particles/particle-pack-127325)
 
 ## Future Work
 - I wanted to fix some small errors, like when I crouch inside the game, it somehow activates my shoot method, causing the character to shoot. I can't figure out why this happens.

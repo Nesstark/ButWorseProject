@@ -69,5 +69,8 @@ Below is a time log of the hours spent on different aspects of the project. This
 - I also wanted to implement bullet hit effects, but creating my own would take too much time, as I haven't really used this system before, and I couldn't find any tutorials that provided the exact result I wanted.
 - Perhaps adding a small animation to show that the gun is reloading, but as it's not intended for anyone else to play, I was fine with it only being displayed in the console.
 
+## GitHub link
+- [ButWorseProject](https://github.com/Nesstark/ButWorseProject)
+
 ## Word count
 - 808 words

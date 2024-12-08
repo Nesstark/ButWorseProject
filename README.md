@@ -3,7 +3,7 @@
 ## Overview
 This game is part of a course called "Pi3D" (Programming of Interactive 3D Worlds). The Unity project is based on the idea of making a "ButWorse" game. We were tasked with recreating a game that we knew and liked. This could have been anything we wanted, and I bounced ideas around for months before settling on this project. The game I chose to recreate was **Call of Duty: Black Ops Zombies**, where the player needs to survive rounds that increase in difficulty as more and more zombies are spawned each round. There isn't really an end goal; it's just about surviving as many rounds as possible.
 
-For my game, I also wanted to implement some "Zombies" who chase after the player. This was accomplished with a NavMesh and some chasing mechanics within the Unity engine. The player can sprint, crouch, jump, aim, and shoot as many times as they want. The game increments the number of zombies by 2 for each round the player survives.
+For my game, I also wanted to implement some "Zombies" who chase after the player. This was accomplished with a NavMesh and some chasing mechanics within the Unity engine. The player can sprint, crouch, jump, aim, and shoot as many times as they want. The game increments the number of zombies by 2 for each round the player survives. This is something that will show up on a UI, that also shows the player, how many bullets they have left, how much life they have left, the round they are on and also how many zombies that are left on the map.
 
 ### Game mechanics:
 - **Player** – Controlled with WASD. The player can crouch using left-ctrl, sprint using left shift, look around with the mouse, and shoot with "Fire1" (the left mouse button).
@@ -57,8 +57,8 @@ Below is a time log of the hours spent on different aspects of the project. This
 - [A guide on using the new AI Navigation package in Unity 2022 LTS and above](https://discussions.unity.com/t/a-guide-on-using-the-new-ai-navigation-package-in-unity-2022-lts-and-above/371872)
 
 ## AI Engines Used
-- ChatGPT
-- GitHub Copilot
+- ChatGPT - Used for script creation and bug fixes.
+- GitHub Copilot - Used for bug fixes, and small implementations here and there.
 
 ## Packages Used
 - [RPG/FPS Game Assets for PC/Mobile (Industrial Set v3.0)](https://assetstore.unity.com/packages/3d/environments/industrial/rpg-fps-game-assets-for-pc-mobile-industrial-set-v3-0-101429)
@@ -68,6 +68,7 @@ Below is a time log of the hours spent on different aspects of the project. This
 - I wanted to fix some small errors, like when I crouch inside the game, it somehow activates my shoot method, causing the character to shoot. I can't figure out why this happens.
 - I also wanted to implement bullet hit effects, but creating my own would take too much time, as I haven't really used this system before, and I couldn't find any tutorials that provided the exact result I wanted.
 - Perhaps adding a small animation to show that the gun is reloading, but as it's not intended for anyone else to play, I was fine with it only being displayed in the console.
+- I also tried to implement that when the player died, it would have a "YOU DIED" UI overlay like Dark Souls 3 and Elden Ring, but I couldn't make it work.
 
 ## GitHub link
 - [ButWorseProject](https://github.com/Nesstark/ButWorseProject)
